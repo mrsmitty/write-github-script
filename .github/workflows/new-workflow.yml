@@ -3,7 +3,7 @@ on:
   
 jobs:
   test:
-    on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: superstar-djs
         run: echo "here we go!"
