@@ -1,0 +1,9 @@
+on:
+  push
+  
+jobs:
+  test:
+    on: ubuntu-latest
+    steps:
+      - name: superstar-djs
+        run: echo "here we go!"
